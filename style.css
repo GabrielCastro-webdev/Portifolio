@@ -1,0 +1,203 @@
+/* Reset e Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6ECD9;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    flex: 1;
+}
+
+.projetos-section {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    flex: 1; 
+}
+
+header {
+    background-color: #FFE53D;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+main p{
+    font-size: 20px;
+} 
+main h1{
+    font-size: 36px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-ul a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 500ms; 
+    display: inline-block;
+}
+
+.navbar-ul a:hover {
+    color: #252525;
+    scale: 110%
+}
+
+/* Área Principal */
+.main-general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    height: calc(100vh - 160px); 
+}
+
+.flutter{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    padding: 0 150px 0 100px;
+    height: calc(100vh - 160px); 
+}
+
+.main-content {
+    max-width: 550px;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container-imagem {
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+}
+
+.container-imagem-flutter {
+    height: 50vh; 
+    width: 20vw;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.flutter-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.instagram-link{
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.instagram-link:hover{
+    font-size: 21px;
+    color: blue;
+    text-decoration: none;
+}
+
+.imagem{
+    border-radius: 15px;
+    height: 55vh;
+    box-shadow: 5px 5px 15px 5px rgb(140, 140, 140);
+}
+
+.foto-perfil {
+    height: 100%; /* Faz ele ficar bem grande, quase saindo do limite */
+    width: auto;   /* Mantém a proporção correta */
+    display: block;
+    object-fit: contain;
+}
+
+/* Footer */
+footer {
+    background-color: #FFE53D;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+    font-weight: 600;
+}
+
+input{
+    width: 500px;
+    border-radius: 10px;
+    background: #fffcf5;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.btn-enviar{
+    width: 100px;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+    background: #fffcf5;
+    transition: 0.25s;
+}
+
+.btn-enviar:hover{
+    scale: 110%;
+    background: #e8dabf;
+    cursor: pointer;
+}
+
+#descricao{
+    height: 150px;
+}
+
+#assunto{
+    height: 30px;
+}
